@@ -49,9 +49,9 @@ namespace exam2
                 if (i % 2 == 0) sum1 += nums[i];
                 else sum2 += nums[i];
             }
+            // вывод результата
             int res;
             res = (sum1 > sum2) ? sum1 : sum2;
-            // вывод результата
             Console.WriteLine("ответ: " + res);
         }
     }
