@@ -24,6 +24,7 @@ namespace exam2
             Ввод: nums = [2,7,9,3,1] 
             Вывод: 12 */
             // ввод исходных данных
+            Console.WriteLine("Введите размер исходного массива:");
             int size;
             if (Int32.TryParse(Console.ReadLine(), out int value))
             {
